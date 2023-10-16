@@ -1,0 +1,66 @@
+@import url('reset.css');
+@import url('block-one.css');
+@import url('block-two.css');
+@import url('block-three.css');
+@import url('block-four.css');
+@import url('block-five.css');
+@import url('footer.css');
+@import url('slider.css');
+
+body {
+    font-family: 'Yandex font';
+    
+}
+
+body._color {
+    background-color: rgb(59, 59, 59);
+    color: aliceblue;
+}
+.wrapper {
+    overflow: hidden;
+}
+.container {
+    max-width: 936px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.title-48 {
+    font-family: YS Text;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.96px;
+}
+
+
+.yellow-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 36px;
+    background: #FFDE40;
+    box-shadow: 0px 4px 98px 0px rgba(255, 222, 64, 0.59);
+}
+
+@media (max-width:767.98px) {
+    .yellow-btn {
+        display: flex;
+    }
+
+    .title-48 {
+        font-size: 32px;
+    }
+
+    .text-16 {
+        font-size: 16px;
+    }
+}
